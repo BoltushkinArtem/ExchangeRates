@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  ExchangeRates
+
+  Created by Artem Boltushkin on 29.08.16.
+  Copyright © 2016 ArtemBoltushkin. All rights reserved.
+*/
+"update_in" = "UPDATE IN %@";
+"exchange_rate_not_changed" = "Since yesterday %@ is not changed";
+"exchange_rate" = "Since yesterday %@ %@ by %i %@";
+"dollar" = "dollar";
+"euro" = "euro";
+"ruble" = "ruble";
+"up" = "up";
+"fell" = "fell";
+"percent_form_0" = "percent";
+"percent_form_1" = "percents";
+"percent_form_2" = "percents";
+"alert_title_information" = "Information";
+"alert_message_service_not_available" = "At the moment the service is not available.";
+"alert_button_try_again" = "Try again";

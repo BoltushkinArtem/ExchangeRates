@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UPDATE IN ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="672-BC-v0T" customClass="CLabel">
+                                <rect key="frame" x="216" y="563" width="168" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="OIQ-De-XEU"/>
+                                    <constraint firstAttribute="width" constant="168" id="tje-aM-PTa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.24705882352941178" green="0.27843137254901962" blue="0.32549019607843138" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cFontName" value="Lato-Black"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifn-tp-lXI" customClass="CLabel">
+                                <rect key="frame" x="180" y="119" width="241" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="M0Y-tX-CoJ"/>
+                                    <constraint firstAttribute="height" constant="96" id="vkv-PY-7br"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="80"/>
+                                <color key="textColor" red="0.24705882352941178" green="0.27843137254901962" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cFontName" value="Lato-Regular"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                        <real key="value" value="-4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading Data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmh-3i-Cb3" customClass="CLabel">
+                                <rect key="frame" x="200" y="222" width="201" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="C5x-FA-59C"/>
+                                    <constraint firstAttribute="width" constant="201" id="fAk-zm-gSs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.82745098039215681" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cFontName" value="Lato-MediumItalic"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6m-Eh-vdE">
+                                <rect key="frame" x="15" y="555" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="cEA-bl-9Jy"/>
+                                    <constraint firstAttribute="height" constant="22" id="vAV-pH-1ar"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="menuButton"/>
+                                <connections>
+                                    <action selector="menuButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q34-Nr-eIM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD → RUB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hna-iR-4go" customClass="CLabel">
+                                <rect key="frame" x="248" y="99" width="105" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3ev-0H-ymb"/>
+                                    <constraint firstAttribute="width" constant="105" id="ti9-8A-a0L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.24705882352941178" green="0.27843137254901962" blue="0.32549019607843138" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cFontName" value="Lato-Black"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ifn-tp-lXI" firstAttribute="top" secondItem="hna-iR-4go" secondAttribute="bottom" constant="-1" id="9iK-1p-OK1"/>
+                            <constraint firstItem="hna-iR-4go" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HhY-yk-3g0"/>
+                            <constraint firstItem="672-BC-v0T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O9D-zl-6N8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m6m-Eh-vdE" secondAttribute="bottom" constant="23" id="bDG-uY-rXy"/>
+                            <constraint firstItem="Ifn-tp-lXI" firstAttribute="centerX" secondItem="hna-iR-4go" secondAttribute="centerX" id="ed1-FG-fbU"/>
+                            <constraint firstItem="hna-iR-4go" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="79" id="emh-Cr-0Y8"/>
+                            <constraint firstItem="m6m-Eh-vdE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="nhs-ed-5Ot"/>
+                            <constraint firstItem="Tmh-3i-Cb3" firstAttribute="top" secondItem="Ifn-tp-lXI" secondAttribute="bottom" constant="7" id="sMm-fz-QeK"/>
+                            <constraint firstItem="Tmh-3i-Cb3" firstAttribute="centerX" secondItem="Ifn-tp-lXI" secondAttribute="centerX" id="xl5-vR-oKx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="672-BC-v0T" secondAttribute="bottom" constant="24" id="ysd-z1-UqS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currency" destination="hna-iR-4go" id="urk-ZI-dFO"/>
+                        <outlet property="exchangeRate" destination="Ifn-tp-lXI" id="7aa-fp-BSK"/>
+                        <outlet property="message" destination="Tmh-3i-Cb3" id="yCb-hP-GFL"/>
+                        <outlet property="update" destination="672-BC-v0T" id="EHX-ry-dcI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="477"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menuButton" width="21" height="13"/>
+    </resources>
+</document>
